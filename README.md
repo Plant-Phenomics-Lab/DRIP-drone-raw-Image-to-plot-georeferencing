@@ -248,11 +248,10 @@ This project is released under the MIT License.
 ## Contact
 
 **Caiwang Zheng**  
-Texas Tech University
 
-Email: your_email@ttu.edu
+Email: caiwangzheng@gmail.com or caizheng@ttu.edu
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/TimothyCaiwang?tab=repositories
 
 ---
 
