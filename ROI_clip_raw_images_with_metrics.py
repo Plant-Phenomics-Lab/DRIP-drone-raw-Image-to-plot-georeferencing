@@ -2,7 +2,7 @@
 """
 DRIP: Automated Plot-Level ROI Extractor & Quality Evaluator
 Created on Thu Apr 23 2026
-Author: czheng23
+Author: Caiwang Zheng
 
 This module automates the extraction (clipping) of individual plot-level 
 Regions of Interest (ROIs) from the Metashape orthomosaic and raw, 
@@ -31,10 +31,10 @@ from skimage.measure import shannon_entropy
 # 1. GLOBAL CONFIGURATIONS
 # =============================================================================
 # Absolute path parameters for the pipeline execution
-IMAGE_FOLDER = "Y:/Raw_Images/Final_Analysis/Raw_DJI_2023_Final/georeferenced"
-META_ORTHO   = "Y:/Raw_Images/Final_Analysis/Raw_DJI_2023_Final/DJI_202306141508_028_G2F2023_20240220T1605_ortho_dsm_UTM.tif"
-POLYGON_PATH = "Y:/Raw_Images/Final_Analysis/Shp/G2F2023_plots_manual.shp"
-OUTPUT_ROOT  = "Y:/Raw_Images/Final_Analysis/Raw_DJI_2023_Final/ROI_clipped_results_RE"
+IMAGE_FOLDER = "/georeferenced"
+META_ORTHO   = "/DJI_202306141508_028_G2F2023_20240220T1605_ortho_dsm_UTM.tif"
+POLYGON_PATH = "/G2F2023_plots_manual.shp"
+OUTPUT_ROOT  = "/ROI_clipped_results_RE"
 
 # Pipeline Parameters
 OVERLAP_THRESHOLD = 0.8  # Minimum overlap ratio (0.0 to 1.0) required to clip raw images
