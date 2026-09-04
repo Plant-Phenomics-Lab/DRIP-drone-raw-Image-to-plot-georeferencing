@@ -2,7 +2,7 @@
 """
 DRIP: Drone Raw Image-to-Plot Georeferencing Workflow
 Created on Thu Jul 17 15:22:15 2025
-Author: czheng23
+Author: Caiwang Zheng
 
 This script implements the georeferencing of individual raw drone images 
 by leveraging SfM (Structure from Motion) outputs from OpenSfM / OpenDroneMap (ODM).
@@ -27,7 +27,7 @@ from scipy.spatial.transform import Rotation as R
 # 1. CONFIGURATION & PATHS
 # =============================================================================
 # Working directory containing raw imagery and SfM reconstruction outputs
-WORKING_DIR = 'Y:/Raw_Images/Final_Analysis/Raw_DJI_2023_Final'
+WORKING_DIR = '/Raw_DJI_2023_Final'
 
 # Input files and directories (relative to WORKING_DIR)
 RECON_PATH = "opensfm/reconstruction.topocentric.json"  # OpenSfM reconstruction output
